@@ -72,4 +72,3 @@ history = model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=2
 #Run this cell to graph your loss
 df = pd.DataFrame(history.history)['loss']
 px.scatter(df).show()
-print("hello world!")
