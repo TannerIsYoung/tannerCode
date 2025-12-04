@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Distributions
+dist/
+build/
+*.egg
+*.whl
+
+# Virtual environment
+.venv/
+venv/
+env/
+# You might also add specific virtual environment names if you use them consistently
+dl-env/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.bak
+*~
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Database files
+*.sqlite3
+*.db
+
+# Configuration files (sensitive or local)
+.env
+local_settings.py
+config.ini
+*.toml  # For TOML configuration files like pyproject.toml in poetry, you might want to be more specific.
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+.ipynb
+
+# Test reports and coverage
+htmlcov/
+.tox/
+.coverage.*
+
+# Miscellaneous
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
