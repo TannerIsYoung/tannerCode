@@ -53,7 +53,7 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.BatchNormalization(),
     tf.keras.layers.Dense(68, activation='relu'),
     tf.keras.layers.BatchNormalization(),
-    tf.keras.layers.Dense(46 activation='softmax')
+    tf.keras.layers.Dense(46, activation='softmax')
 ])
 
 # TODO set your learning rate
