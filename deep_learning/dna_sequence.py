@@ -8,7 +8,7 @@ import plotly.express as px
 import tensorflow as tf
 
 # TODO Load penguins.csv
-data = pd.read_csv("classifcation_and_seqs_aln.csv")
+data = pd.read_csv("all_classifcation_and_seqs_aln.csv")
 
 #TODO Handle NA Values
 
@@ -46,14 +46,14 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.8, rando
 
 # TODO create a neural network with tensorflow
 model = tf.keras.models.Sequential([
-    tf.keras.layers.Input(shape=(4795,)),
+    tf.keras.layers.Input(shape=(27040,)),
     tf.keras.layers.Dense(272, activation='relu'),
     tf.keras.layers.BatchNormalization(),
     tf.keras.layers.Dense(136, activation='relu'),
     tf.keras.layers.BatchNormalization(),
     tf.keras.layers.Dense(68, activation='relu'),
     tf.keras.layers.BatchNormalization(),
-    tf.keras.layers.Dense(34, activation='softmax')
+    tf.keras.layers.Dense(46 activation='softmax')
 ])
 
 # TODO set your learning rate
